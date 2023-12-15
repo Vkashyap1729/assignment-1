@@ -1,0 +1,100 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: auto;
+    margin: 0;
+    background-color:black;
+  }
+  
+.element{
+    text-align: center;
+    text-decoration: solid;
+    text-rendering: geometricPrecision;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 20px 0;
+    color: bisque;
+    font-size: xx-large;
+}
+table{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+td{
+    padding: 10px;
+    text-align: center;
+}
+td[data-group="lanthanide"] {
+    background-color: hsl(42deg, 62%, 76%);
+    font-weight: bold;
+  }
+td[data-group="actinide"] {
+    background-color: hsl(340deg, 67%, 88%);
+    font-weight: bold;
+}
+td[data-group="alkali-metal"] {
+    background-color: hsl(48deg, 77%, 64%);
+    font-weight: bold;
+}
+td[data-group="alkaline-earth-metal"] {
+    background-color: hsl(60deg, 83%, 67%);
+    font-weight: bold;
+}
+td[data-group="transition-metal"] {
+    background-color: hsl(12deg, 87%, 85%);
+    font-weight: bold;
+}
+td[data-group="metalloid"] {
+    background-color: hsl(165deg, 58%, 76%);
+    font-weight: bold;
+}
+td[data-group="non-metal"] {
+    background-color: hsl(120deg, 73%, 74%);
+    font-weight: bold;
+}
+td[data-group="noble-gas"] {
+    background-color: hsl(300deg, 44%, 82%);
+    font-weight: bold;
+}
+td[data-group="halogen"]{
+    background-color: hsl(120deg, 73%, 74%);
+    font-weight: bold;
+}
+td[data-group="halogen"]:hover,td[data-group="noble-gas"]:hover,td[data-group="lanthanide"]:hover,td[data-group="actinide"]:hover,td[data-group="alkali-metal"]:hover,td[data-group="alkaline-earth-metal"]:hover,td[data-group="non-metal"]:hover,td[data-group="metalloid"]:hover,td[data-group="transition-metal"]:hover,td[data-group="post-transition-metal"]:hover{
+    background-color: crimson;
+    transform: scale(2);
+}
+td[data-group="post-transition-metal"] {
+    background-color: hsl(192deg, 62%, 80%);
+    font-weight: bold;
+}
+.dummy{
+    color: bisque;
+    font-size: xx-large;
+}
+.sep{
+    background-color: white;
+    font-size: large;
+    font-weight: bold;
+}
+.navigator{
+    width: 100px;
+    color: aliceblue;
+    font-size: large;
+    font-weight: 100;
+    align-items: center;
+    /* flex-direction: column; */
+}
+#colors:hover{
+    transform: scale(2);
+}
+
+/* nothin */
